@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight, Download } from 'lucide-react';
 import { Button } from './ui/button';
 import { personalInfo } from '../data/mock';
+import RoleTypewriter from './ui/roleTypeWritter';
 
 const Hero = () => {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -62,18 +63,23 @@ const Hero = () => {
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-32">
         <div className="text-center">
           {/* Greeting */}
-          <div className="inline-block mb-6">
-            <span className="text-red-500 font-medium text-sm tracking-wider uppercase">This site is still under developement....</span>
+          <div className="inline-block mb-6 ">
+            <span className="text-red-500 font-medium text-md tracking-wider uppercase">This site is still under developement....</span>
           </div>
+
 
           {/* Main heading */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 tracking-tight">
             {personalInfo.name} 👨‍💻
           </h1>
 
+
           {/* Title */}
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-light text-gray-300 mb-8">
-            {personalInfo.title}
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-light text-gray-300 mb-8 flex justify-center gap-2">
+            <span>I'm a</span>
+            <span className="min-w-[18ch] text-left">
+              <RoleTypewriter />
+            </span>
           </h2>
 
           {/* Tagline */}

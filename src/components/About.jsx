@@ -44,9 +44,9 @@ const About = () => {
               {personalInfo.bio}
             </p>
             <p className="text-lg text-gray-400 leading-relaxed">
-              Beyond coding, I'm an active contributor to the developer community through my blog posts, 
-              where I share insights about Spring Boot best practices, AI integration techniques, and 
-              modern software architecture patterns.
+              Alongside backend development, I’m actively learning frontend technologies like React to become more full-stack oriented, and I have hands-on experience building mobile applications using Flutter. I also have a strong interest in Spring AI, where I enjoy creating intelligent applications and AI-driven agents that automate workflows and enhance developer productivity.
+
+              I’m passionate about clean code, system design, and continuous learning, and I enjoy exploring how modern AI can be integrated into traditional enterprise systems to build smarter and more efficient solutions.
             </p>
           </div>
 
