@@ -1,16 +1,40 @@
-# React + Vite
+# Shivam Rao – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Screenshot](./path-to-your-screenshot.png)
 
-Currently, two official plugins are available:
+## 💻 About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Hi, I’m **Shivam Rao**, a Backend-focused Software Engineer exploring **full-stack development** with **React** and **Flutter**, while building intelligent applications using **Spring AI**. This portfolio showcases my **projects, work experience, skills, and contact information** with interactive animations and modern UI effects.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Website Features
 
-## Expanding the ESLint configuration
+* **Hero Section:**
+  Netflix-style intro animation with a black screen and glowing name reveal.
+  Typewriter effect cycling through **Backend Engineer, React Developer, Flutter Developer**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **About Me Section:**
+  Highlights my work in **Spring Boot, AI, React, and Flutter** along with my passion for automation and modern technologies.
+
+* **Work Experience Section:**
+  Professional summary of experience at **Infosys** and **ITC Infotech**, including backend and frontend development, AI integrations, and Flutter applications.
+
+* **Projects Section:**
+  Dynamically fetches and displays featured GitHub repositories. Shows project name, description, tech stack, and GitHub link.
+
+* **Interactive UI Effects:**
+  Cursor glow effect, animated background blobs, smooth scrolling, and responsive layout for desktop and mobile.
+
+* **Call-to-Action Buttons:**
+  Download Resume & Contact buttons with hover animations and smooth scroll.
+
+---
+
+## 🛠 Technologies Used
+
+* **Frontend:** React, Tailwind CSS, Framer Motion, Lucide React
+* **Backend / Skills:** Java, Spring Boot, Spring AI, Apache Camel, REST APIs
+* **Mobile:** Flutter
+* **Tools:** GitHub API, BlackDuck, Vercel for deployment
+* **Testing:** JUnit, AssertJ
